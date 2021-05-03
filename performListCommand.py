@@ -1,4 +1,8 @@
-for _ in range(N):
+if __name__ == '__main__':
+    N = int(input())
+    ar = []
+    commandList = []
+    for _ in range(N):
         commandList.append(input())
     
     for i in range(N):
